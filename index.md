@@ -7,5 +7,4 @@ Stay tuned for some stuff?
 sheep = 0
 while (!asleep):
   sheep += 0
-
 ```
