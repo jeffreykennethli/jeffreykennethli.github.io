@@ -6,5 +6,5 @@ Stay tuned for some stuff?
 ```markdown
 sheep = 0
 while (!asleep):
-  sheep += 1 # Or count by 5, whichever floats your boat
+  sheep += 1
 ```
