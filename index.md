@@ -1,5 +1,5 @@
 ## Welcome to My Page
-Stay tuned for some stuff?
+My resume: https://goo.gl/fReR5A
 
 ## Some Relevent Code
 
