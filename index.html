@@ -7,151 +7,95 @@
 
 	<!-- Bulma -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@2.2.1/bulma-carousel/dist/css/bulma-carousel.min.css">
 
 	<!-- Style -->
 	<link rel="stylesheet" href="./style.css">
 
 	<!-- Tab image (favicon) -->
-	<link rel="shortcut icon" href="./images/nightMarket.jpg">
-	<script src="./scripts/navbar-burger.js"></script>
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<script src="./scripts/tellmemore.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<title>Rice Taiwanese Association</title>
+	<title>Jeffrey Kenneth Li</title>
 </head>
 
 <body>
-	<!-- Topbar -->
-	<nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="dropdown main navigation">
-		<div class="navbar-brand">
-			<a class="navbar-item" href="./index.html">
-				<img src="./images/nightMarket.jpg" width="30" height="28">
-			</a>
-			<div class="navbar-start">
-				<a class="navbar-item has-text-weight-bold is-size-4" href="./index.html">RTA</a>
-			</div>
-			<img class="is-hidden-touch" src="./images/flower_banner.png" style="width:650px; height:50px">
-			<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-				<span aria-hidden="true"></span>
-			</a>
-
-		</div>
-		<div class="navbar-menu" id="navMenu">
-			<div class="navbar-end">
-				<a class="navbar-item is-size-5" href="#home">Home</a>
-				<a class="navbar-item is-size-5" href="#about">About RTA</a>
-				<a class="navbar-item is-size-5" href="#contact">Contact</a>
-			</div>
-		</div>
-	</nav>
-
-	<!-- Carousel Hero -->
-	<section id="home" class="hero is-large is-fullheight has-carousel">
-		<div class="hero-carousel carousel-animated carousel-animate-slide" data-autoplay="true">
-			<div class="carousel-container" style="height: 282.888px;">
-				<!-- Carousel Items -->
-				<div class="carousel-item has-background is-active" style="order: 1; z-index: 1;">
-					<img class="is-background" src="./images/familyhero2.jpg" alt="" draggable="false">
-				</div>
-				<div class="carousel-item has-background" style="order: 2; z-index: 0;">
-					<img class="is-background" src="./images/fampic2.jpg" alt="" draggable="false">
-				</div>
-				<div class="carousel-item has-background" style="order: 3; z-index: 0;">
-					<img class="is-background" src="./images/ironchef2017.JPG" alt="" draggable="false">
-				</div>
-				<div class="carousel-item has-background" style="order: 0; z-index: 0;">
-					<img class="is-background" src="./images/shandongtrip.jpg" alt="" draggable="false">
-				</div>
-			</div>
-		</div>
+	<section class="hero is-medium">
 		<div class="hero-body has-text-centered">
 			<div class="container">
-				<h1 class="title is-size-1-desktop">
-					Rice Taiwanese Association
+				<h1 class="title">
+					Jeffrey Kenneth Li
 				</h1>
-				<h2 class="subtitle is-size-4-desktop">
-					An association for Taiwanese cultural awareness
-				</h2>
+				<a class="button student" href="https://csweb.rice.edu/" target="_blank"></a>
+				<br/>
+				<a class="button programmer" href="https://aws.amazon.com/codepipeline/" target="_blank"></a>
+				<br/>
+				<a class="button creator" href="https://www.youtube.com/channel/UCKmjiJtUrcU4RM2QR_c1Ifw" target="_blank"></a>
+				<br/>
+				<a id="reveal1" class="button tellMeMore" href="#about"></a>
 			</div>
-		</div>
-	</section>
-
-	<!-- Carousel Scripts -->
-	<script type="text/javascript" src="https://wikiki.github.io/node_modules/bulma-extensions/bulma-carousel/dist/js/bulma-carousel.js"></script>
-	<script>
-		document.addEventListener('DOMContentLoaded', function(){
-			var carousels = bulmaCarousel.attach();
-		}, false);
-	</script>
-
-	<!-- Main Section -->
-	<section id="about" class="section">
-		<div class="container">
-			<div class="block">
-				<div class="content">
-					<h1 class="title has-text-centered"><br/>About RTA</h1>
-					<div>
-						<strong>Welcome!</strong>
-						<br/>
-						<br/>
-						The <strong>Rice Taiwanese Association</strong> is a non-partisan, cultural, and social organization that celebrates and shares Taiwan's rich culture and heritage with students of Rice University. In order to offer our members the opportunity to meet other students interested in Taiwanese culture, RTA sponsors study breaks, family events, and socials for everyone to learn about Taiwanese traditions, music, and (of course) food. Past study break themes have included mahjong, dumplings, brush-painting seminars, shaved ice, red bean soup, mooncakes, and noodles. RTA also organizes and sponsors restaurant trips to get students outside the hedges and invested in Houston's Chinatown and Asian culture. Our biggest event of the year is our <strong>Night Market</strong>, hosted on Rice University campus in the Spring semester. RTA is supported by the Rice Student Center and Office of Multicultural Affairs, and is a member of the Intercollegiate Taiwanese American Students Association.
-					</div>
-					<h1 class="title has-text-centered">Get To Know Us</h1>
-					<div>
-						In addition to these events open to the Rice community, RTA members also form <strong>Families</strong>, who have their own budget to organize their own socials and outings. Examples of family events include movie nights, gaming sessions, boba runs, and family dinners. Our biggest joint family event is <strong>Iron Chef</strong>, an annual cooking competition we have organized for over ten years.
-						<br/>
-						<br/>
-						Whether you want to keep up to date with our events or join our big family, like our <a href="https://www.facebook.com/rice.taiwanese.association" target="_blank">Facebook</a> page and send us a message to join our listserv!
-					</div>
-					<div class="section has-text-centered">
-						<h2>Officers 2018-2019</h2>
-						Co-Presidents: Kenneth Li and Allison Chang
-						<br/>
-						Director of Publicity: Ryan Lee
-						<br/>
-						Co-IVP: Safina Hsu and Priscilla Li
-						<br/>
-						Co-EVP: Annabel Chang and Vienna Wang
-						<br/>
-						Family VP: William Su
-						<br/>
-						Treasurer: Allen Lin
-						<br/>
-						Secretary: Christine Wang
-						<br/>
-						Family Heads:
-						Christine Wang, Frank Yang, Michael Tsay, Xindi Duan, Jessica Yuan
+			<div id="about" class="container hidden">
+				<div class="block">
+					<div class="content">
+						<h2 class="title"><br/>Tell me more?</h2>
+						<div>
+							<div id="start">Okay! (or just press enter ⏎)</div>
+							<br/>
+							<ul id="hiddenList" class="uList" style="list-style-type: none; margin: 0;">
+								<li>
+									I grew up a stone's throw away from <a href="https://www.yelp.com/biz/soaring-teapot-temple-city" target="_blank">this.</a>
+								</li>
+								<br/>
+								<li>
+									In a bout of wanderlust, I left home for Houston, and I had a great time at school...
+								</li>
+								<br/>
+								<li>
+									Except for that one time it <a href="https://www.nationalgeographic.com/photography/proof/2017/08/hurricane-harvey-texas-flooding/" target="_blank">REALLY</a> flooded.
+								</li>
+								<br/>
+								<li>
+									In my spare time, I <a href="http://www.ricethresher.org/article/2015/10/i-know-how-you-can-find-your-soulmate" target="_blank">wrote</a>,
+									connected with my <a href="https://www.facebook.com/rice.taiwanese.association" target="_blank">roots</a>, and went crabbing. <a href="https://www.youtube.com/watch?v=dOyS6I0ZEr0" target="_blank">Once.</a>
+								</li>
+								<br/>
+								<li>
+									While studying at Rice, I did some <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5650395/" target="_blank">work</a> in prostate cancer research (it's never too early to think about the end).
+								</li>
+								<br/>
+								<li>
+									Then I spent one summer in Seattle.
+								</li>
+								<br/>
+								<li>
+									And that brings us to now.
+								</li>
+								<br/>
+								<li>
+									Hi!
+								</li>
+								<br/>
+								<li>
+									Now that we're basically friends.
+								</li>
+								<br/>
+								<li>
+									Feel free to reach me personally at <strong>k.jeffrey.li@gmail.com</strong>.
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
 
-
-
-	<!-- contact Section -->
-	<section id="contact" class="section has-sec-bg has-text-centered">
-		<div class="block">
-			<h1 class="title has-text-weight-bold"><br/>CONTACT US</h1>
-		</div>
-		<a class="button is-link is-large" href="https://www.facebook.com/rice.taiwanese.association">Facebook</a>
-		<br/>
-		<br/>
-		<a class="button is-warning is-large" href="https://studentcenter.rice.edu/student-activities/group/club-resources/financial-resources/gifts-and-donations" target="_blank" href="https://studentcenter.rice.edu/student-activities/group/club-resources/financial-resources/gifts-and-donations">Donate</a>
-		<br/>
-		<br/>
-		<a class="button is-dark is-large" href="https://goo.gl/forms/mhl5jUO5wsWyitWF2">Listserv</a>
 	</section>
 </body>
 
-<!-- Footer -->
-<footer class="footer">
-	<div class="content has-text-centered">
-		<p>
-			Copyright &copy; 2018 - All Rights Reserved - <a href="#">Rice Taiwanese Association</a>
-			<!-- Designed by Jeffrey Kenneth Li and Priscilla Li -->
-		</p>
+<section class="section has-text-centered">
+	<div class="container">
+		Here's a link to my <a href="#">resume</a>, if you're curious.
 	</div>
-</footer>
+</section>
+
 </html>
