@@ -44,38 +44,38 @@
 }
 
 .student:after {
-	content: "Student.";
+	content: "Student";
 }
 
 .student:hover:after {
-	content: "At Rice University.";
+	content: "At Rice University";
 	color: #61abe8;
 }
 
 .programmer:after {
-	content: "Programmer.";
+	content: "Programmer";
 }
 
 .programmer:hover:after {
-	content: "SDE Intern @ Amazon.";
+	content: "SDE Intern @ Amazon";
 	color: #ff9900;
 }
 
 .creator:after {
-	content: "Creator.";
+	content: "Creator";
 }
 
 .creator:hover:after {
-	content: "On Youtube.";
+	content: "Aspiring Filmmaker";
 	color: #cc181e;
 }
 
 .tellMeMore:after {
-	content: "Tell me more.";
+	content: "Tell me more";
 }
 
 .tellMeMore:hover:after {
-	content: "Sure! Why not.";
+	content: "Sure! Why not";
 	color: #40cc00;
 }
 
