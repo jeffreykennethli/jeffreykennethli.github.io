@@ -57,7 +57,7 @@
 }
 
 .programmer:hover:after {
-	content: "Incoming SWE @ Google";
+	content: "SWE @ Google";
 	color: #ff9900;
 }
 
