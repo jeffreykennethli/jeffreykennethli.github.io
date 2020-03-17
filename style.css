@@ -43,14 +43,14 @@
 	box-shadow: none !important;
 }
 
-.student:after {
+/* .student:after {
 	content: "Student";
 }
 
 .student:hover:after {
 	content: "At Rice University";
 	color: #61abe8;
-}
+} */
 
 .programmer:after {
 	content: "Programmer";
@@ -59,6 +59,15 @@
 .programmer:hover:after {
 	content: "SWE @ Google";
 	color: #ff9900;
+}
+
+.writer:after {
+	content: "Writer";
+}
+
+.writer:hover:after {
+	content: "Blogger @ Medium";
+	color: #61abe8;
 }
 
 .creator:after {
