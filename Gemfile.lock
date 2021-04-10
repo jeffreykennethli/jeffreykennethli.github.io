@@ -202,6 +202,8 @@ GEM
     listen (3.3.3)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    louie (0.1.4)
+      jekyll (~> 3.3)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
     minima (2.5.1)
@@ -260,7 +262,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 209)
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  louie
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.0)
