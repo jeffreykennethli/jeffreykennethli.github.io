@@ -5,7 +5,7 @@ permalink: /projects/
 
 **THINGS I DO IN MY SPARE TIME THAT ARE NOT ENTIRELY USELESS**
 
-[**How well do teams draft? A Statistical Approach **](https://www.reddit.com/r/nba/comments/6nimvs/oc_how_well_do_teams_draft_a_statistical_approach/)
+[**How well do teams draft? A Statistical Approach**](https://www.reddit.com/r/nba/comments/6nimvs/oc_how_well_do_teams_draft_a_statistical_approach/)
 
 My dream job was to be a professional basketball player. My second dream job was to be an NBA General Manager. I'll settle for... ahem... devising a model for evaluating NBA front office drafting decisions.
 
